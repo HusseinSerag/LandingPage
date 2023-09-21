@@ -2,14 +2,14 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
+    max-width: 100vw;;
 }
 .section-1{
     display: flex;
     flex-direction: column;
-    background-color:#1f2937 ;
-    padding: 10px 150px;
-    min-width: 600px;
-    flex:1;
+    background-color:#624b1c ;
+    padding: 10px 300px;
+    
     
     
 
@@ -19,6 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1f2937;
 }
 body{
     font-family: 'Gloock', serif, 'Indie Flower', 'cursive';
@@ -29,43 +30,71 @@ body{
 .header{
     display: flex;
     justify-content: end;
-    margin-bottom: 30px;
+   
     gap:10px;
-    min-width: 600px;
+    
+    align-items: center;
     
     
+    
+    
+}
+.header > *{
+    flex-shrink: 0;
 }
 .header-logo{
     margin-right: auto;
     font-size: 24px;
     color:#f9faf8;
+    
 
+}
+a{
+    text-decoration: none;
+    color:#f9faf8;
 }
 .section-1-content{
     display: flex;
     gap:30px;
     margin-top: 20px;
+    height: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+
     
 }
-
+.section-1-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
 .header .header-link{
     font-size:18px;
     color:#e5e7eb;
 }
 
-.h1{
+.section-1-content .h1{
     font-size: 48px;
     font-weight: 900;
     color:#f9faf8;
+
+}
+.section-1-content .text{
+    flex:1 1;
+    
+    text-align: center;
 }
 
 .text .paragraph{
 font-size: 18px;
 color:#e5e7eb;
+line-height: 2;
 }
 .img{
-    width:400px;
-    height:300px;
+    flex: 1 1 600px;
+    min-width: 0;
+    height:auto;
     
 }
 .sign-up{
@@ -75,5 +104,41 @@ color:#e5e7eb;
    border-radius: 5px;
    margin-top: 10px;
    color:#e5e7eb;
+   font-size: 30px;
 
+}
+.section-2{
+    padding:25px 60px;
+}
+.section-2 .h1{
+    text-align: center;
+    margin:40px;
+}
+.section-2-container{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.section-2-container-item{
+    max-width:400px;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-2-container-item > .shape{
+
+    max-width: 300px;
+    height: auto;
+
+}
+.section-2-container-item > .text{
+
+    text-align: center;
 }
