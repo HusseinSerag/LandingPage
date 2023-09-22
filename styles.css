@@ -19,7 +19,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
+   background-color: #624b1c;
+   color:#f9faf8;
 }
 body{
     font-family: 'Gloock', serif, 'Indie Flower', 'cursive';
@@ -107,6 +108,7 @@ line-height: 2;
    font-size: 30px;
 
 }
+
 .section-2{
     padding:25px 60px;
 }
@@ -141,4 +143,65 @@ line-height: 2;
 .section-2-container-item > .text{
 
     text-align: center;
+}
+
+
+.section-3{
+    display: flex;
+    align-items: flex-end;
+    background-color: #D8D8D8;
+    height: 1200px;
+    padding:60px 60px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    gap:30px;
+
+    
+
+}
+.section-3 .paragraph{
+    flex:5;
+    font-size: 48px;
+    height: 30vh;
+}
+.section-3 .name{
+    flex:1;
+    font-size: 20px;
+}
+
+
+.section-4{
+    display: flex;
+    padding: 120px;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+.section-4-item{
+    border-radius: 20px;
+    width:50vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap:10px;
+    background-color:#624b1c;
+    color: #e5e7eb;
+}
+
+.section-4-item button{
+    height:30%;
+    padding:10px;
+    border: 0;
+    border-radius: 5px;
+    
+}
+.bold{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+button a{
+    color:#624b1c;
 }
