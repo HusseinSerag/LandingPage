@@ -27,6 +27,7 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    flex-shrink: 1;
 }
 .header{
     display: flex;
@@ -99,12 +100,12 @@ line-height: 2;
     
 }
 .sign-up{
-   background-color: #3882f6;
+   background-color: #e5e7eb;
    border:0;
    padding:5px 10px;
    border-radius: 5px;
    margin-top: 10px;
-   color:#e5e7eb;
+   color:#624b1c;
    font-size: 30px;
 
 }
@@ -161,12 +162,13 @@ line-height: 2;
 }
 .section-3 .paragraph{
     flex:5;
-    font-size: 48px;
+    font-size: 2.5em;
     height: 30vh;
 }
 .section-3 .name{
     flex:1;
     font-size: 20px;
+    margin-left: -15px;
 }
 
 
