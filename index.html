@@ -1,72 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=content-width , initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Indie+Flower&display=swap" rel="stylesheet">
-        <title>Landing Page</title>
-    </head>
-    <body>
-        
-        <div class="section-1">
-            <div class="header">
-                <div class="header-logo"><a href="https://www.google.com/search?q=Egypt" target="_blank">Egypt</a></div>
-                <div class="header-link"><a href="#section-2">Info</a></div>
-                <div class="header-link"><a href="#section-3">Quotes</a></div>
-                <div class="header-link"><a href="#section-4">Sign Up</a></div>
-            </div>
-            <div class="section-1-content">
-                <div class="text">
-                    <h1 class="h1">Egypt was and is awesome</h1>
-                    <p class="paragraph">This website has some subtext that goes under the main title. it's a smaller font and the color is lower contrast</p>
-                    <button class="sign-up"><a href="#section-4">Sign Up</a></button>
-                </div>
-                <div class="section-1-image">
-                    <img alt="placeholder for image" class="img" src="./images/giphy.gif">
-                </div>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./index.css" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-logo">Header Logo</div>
+            <div class="header-links">heaader link 1</div>
+            <div class="header-links">heaader link 2</div>
+            <div class="header-links">heaader link 3</div>
+        </header>
+        <div class="content">
+            <div class="text"><h1>This website is awesome</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ducimus veniam repudiandae eius ipsum. Sint deserunt culpa veritatis. Eius explicabo voluptatum est similique placeat temporibus numquam vitae blanditiis, expedita dignissimos?</p>
+            <button>sign in</button>
         </div>
-        <div class="section-2" id="section-2">
-            <h1 class="h1">Info about Egypt</h1>
-            <div class="section-2-container">
-               <div class="section-2-container-item">
-                <img src="./images/pyramids.jpg" class="shape">
-                <div class="text">The pyramids are ancient, iconic structures that have captured the imagination of people around the world for millennia. They are characterized by their distinctive triangular shape and were primarily built as monumental tombs for pharaohs and other high-ranking individuals in ancient Egypt. </div>
-               </div>
-               <div class="section-2-container-item">
-                <img src="./images/nile.jpg" class="shape">
-                <div class="text">The Nile River, the longest river in the world, flows through Egypt. It has played a vital role in the country's history, serving as a source of water, transportation, and fertile soil for agriculture.</div>
-               </div> 
-               <div class="section-2-container-item">
-                <img src="./images/vofkings.jpg" class="shape">
-                <div class="text">Located on the west bank of the Nile near Luxor, the Valley of the Kings is a burial site for many Pharaohs of the New Kingdom period. It's famous for the discovery of King Tutankhamun's tomb in 1922.
-                </div>
-               </div> 
-               <div class="section-2-container-item">
-                <img src="./images/hero.jpg" class="shape">
-                <div class="text">The ancient Egyptians developed one of the earliest writing systems known as hieroglyphics. It is a system of pictorial symbols that was used for religious texts, monumental inscriptions, and more.</div>
-               </div>  
-            </div>
+            <div class="img"><img src="hero.jpg" alt="image"></div>
         </div>
-        <div class="section-3" id="section-3">
-            <p class="paragraph">"The past is hidden in darkness, the future is uncertain, but today is a gift. That's why it's called the present."</p>
-            <p class="name">- Ancient Egyptian Proverb</p>
+    </div>
+    <div class="container-2">
+        <h2>Some random information</h2>
+        <div class="info">
+            <div class="info-content"><div class="square"></div>
+            <div class="text">This is a short introduction or a phoro is inestered here</div></div>
+            <div class="info-content"><div class="square"></div>
+            <div class="text">This is a short introduction or a phoro is inestered here</div></div>
+            <div class="info-content"><div class="square"></div>
+            <div class="text">This is a short introduction or a phoro is inestered here</div></div>
+            <div class="info-content"><div class="square"></div>
+            <div class="text">This is a short introduction or a phoro is inestered here</div></div>
         </div>
-        <div class="section-4" id="section-4">
-            <div class="section-4-item">
-                <div class="text"><div class="bold">Egypt holds alot of adventures and fun!</div>
-                <div>Come by and visit and learn more about our beautiful and wonderful culture</div>
-            </div>
-                <button><a href="https://www.tripadvisor.com/Tourism-g294200-Egypt-Vacations.html" target="_blank">Come to Egypt now!</a></button>
-                <audio controls autoplay hidden>
-                    <source src="./audio/priestess.mp3" type="audio/mpeg">
-                    Audio
-                </audio>
-            </div>
+    </div>
+    <div class="container-3">
+
+        <div class="quote-sayer">
+            <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
+            <div class="sayer">-Thor, God of Thunder</div>
         </div>
-        <div class="footer">Copyright &#169 The Odin Project 2021</div>
-    </body>
+    </div>
+    <div class="container-4">
+        <div class="blue">
+            <div class="text">
+                <h2>Call to action! It's time!</h2>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button>Sign Up</button>
+        </div>
+    </div>
+    <footer>
+        Made by Hussein!
+    </footer>
+</body>
 </html>
